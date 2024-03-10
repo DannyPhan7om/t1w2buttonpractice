@@ -1,0 +1,72 @@
+/* .container {
+    background-color: #98FB98;
+    display: flex;
+    width: 340px;
+    height: 70px;
+    border-radius: 12px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+.B:hover {
+    background-color: #609E60;
+} */
+
+/* .B {
+    background-color: grey;
+    border-radius: 12px;
+    width: 100px;
+    height: 50px;
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: grey;
+}
+
+.button1 {
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+    background-color: #1AA4DB;
+    border-color: white;
+    border-style:solid ;
+    border-radius: 12px;
+    border-width: 2px;
+    height: 30px;
+    width: 60px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.button1:hover {
+    /* Changes the Colour of the Button */
+    animation-name: colourchange;
+    animation-duration: 1s;
+    /* Maintains the Colour of the Button */
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+.button1:visited {
+    text-decoration: none;
+}
+
+/* Changes the Colour of the Button */
+@keyframes colourchange {
+ from {
+    background-color: #1AA4DB;
+    color: white;
+    border-color: white;}
+ to {background-color: white;
+    color: black;
+    border-color: black;}
+}
